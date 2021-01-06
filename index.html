@@ -1,17 +1,355 @@
 <!DOCTYPE html>
 <html>
-<body>
-    <div class="container">
-  <div class="jumbotron">
-    <h1>Bootstrap Tutorial</h1>
-    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
-    responsive, mobile-first projects on the web.</p>
-  </div>
-  <p>This is some text.</p>
-  <p>This is another text.</p>
-</div>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-    
-</body>
+    <head>  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Serif+Caption" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a> |
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="jumbotron">
+
+            <div class="container">
+                <img class="right" src="img/header.png" style="width:70%">
+            </div>
+        </div>
+
+
+        <div class="section-around">
+            <div class="nav-buttons">
+                <button class="show-lth" id="malin">Education</button>
+                <button class="show-job button-job">Work Experience</button>
+            </div>
+            <div class="edu">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4 style="color: #3285a4">dotWhere</h4>
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.lth.se/english/" target="_blank">LTH</a>
+                            <svg class="icon-course right-icon"><use xlink:href="#icon-course"></use></svg> 
+                            <a href="https://kurser.lth.se/kursplaner/20_21%20eng/MAMN01.html" target="_blank">Advanced Interaction Design</a>
+                        </h6>
+                        <p class="text-muted">
+                            In the course Advanced Interaction Design, me and my team developed an Android app. I was the project leader and also responsible for the code implementation. The main goal for the application was to improve the training experience by utilizing multiple ways of interaction and create the best possible user experience. It resulted in a GPS-based map-view with training exercises. The design process was based on acknowledged design theory in addition to this, the prototypes developed were evaluated repeatedly through testing in an iterative process. 
+                        </p>
+                    </div>
+                    <div class="col-md-7 how-img">
+                        <a href="img/dotwhere.png" target="_blank">
+                            <img src="img/dotwhere.png" style="width:70%"> </a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-7 how-img">
+                        <a href="img/a-till-b-c.png" target="_blank">
+                            <img src="img/a-till-b-c.png" style="width:105%"></a>
+                    </div>
+                    <div class="col-md-5 tech">
+                        <h4 style="color: #c59c2c">A till B</h4>
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.lth.se/english/" target="_blank">LTH</a>
+                            <svg class="icon-course right-icon"><use xlink:href="#icon-course"></use></svg> 
+                            <a href="https://kurser.lth.se/kursplaner/20_21%20eng/TNSF05.html" target="_blank">Rehabilitation Engineering</a>
+                        </h6>
+                        <p class="text-muted">
+                            In the course Rehabilitation Engineering a prototype app was developed to support drivers, caregivers and disabled children to travel with transportation service. The app informs about delays, gives information about the child’s needs and verifies that the child is handed over to right driver and receiver.
+                        </p>
+                    </div> 
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4>Tech.Care</h4>
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.lth.se/english/" target="_blank">LTH</a>
+                            <svg class="icon-course right-icon"><use xlink:href="#icon-course"></use></svg> 
+                            <a href="https://kurser.lth.se/kursplaner/20_21%20eng/MAMA15.html" target="_blank">Interaction Design, Basic Course</a>
+                        </h6>
+                        <p class="text-muted">
+                            The project was developed by my and two other students in the course Interaction Design, Basic Course. The task was to design a smart home device which would facilitate human needs. We developed a system called Tech.Care for elderly people to help them in their everyday life. Services such as medication reminders, help with personal hygiene, contact with healthcare providers and relatives. Tech.Care was supposed to be used in the bathroom on a touch screen mirror. During the project we made interviews, personas, created usability and user experience goals, performed bodystorming and tested both low- and high-fidelity prototypes.
+                        </p>
+                    </div>
+                    <div class="col-md-7 how-img">
+                        <a href="img/tech-care-pic-2.png" target="_blank">
+                            <img src="img/tech-care-pic-2.png" style="width:80%"></a>
+                    </div> 
+                </div>
+
+                <div class="row box-frame">
+                    <div class="col-md-5 box-padd">
+                        <h4 style="color:#c59c2c">Coaching of programming teams</h4>
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.lth.se/english/" target="_blank">LTH</a>
+                            <svg class="icon-course right-icon"><use xlink:href="#icon-course"></use></svg> 
+                            <a href="https://kurser.lth.se/kursplaner/20_21%20eng/EDAN80.html" target="_blank">Coaching of Programming Teams
+                            </a>
+                        </h6>
+                        <div class="back-white">
+                            <p class="text-muted">
+                                During the course coaching of programming teams, my partner and I coached ten students to develop a software system. We worked agile in sprints and we were focusing on how to develop teamwork in a short amount of time. The purpose of the course was to get practical experience from how to lead and coach a software development team.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 box-padd">
+                        <h4 style="color:#c59c2c">Requirements Engineering</h4>
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.lth.se/english/" target="_blank">LTH</a>
+                            <svg class="icon-course right-icon"><use xlink:href="#icon-course"></use></svg> 
+                            <a href="https://kurser.lth.se/kursplaner/20_21%20eng/ETSN15.html" target="_blank">Requirements Engineering
+                            </a>
+                        </h6>
+                        <p class="text-muted">
+                            My team developed an SRS to a real start-up company in the course Requirements Engineering. We conducted requirements to the company so they would be able to produce their product in the best way possible to reach their business goals. It included data-, functional-, design- and quality requirements which where prioritized and ranked based on different theoretical models. One of my tasks was to handle the communication with the start-up company.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-7" style="padding-top: 30px">
+                        <h4 style="color:#6da753">The Rescue of Dataville </h4>
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.lth.se/english/" target="_blank">LTH</a>
+                            <svg class="icon-course" style="margin-left: 10px"><use xlink:href="#icon-course"></use></svg> 
+                            <a href="https://kurser.lth.se/kursplaner/20_21%20eng/MAMN10.html" target="_blank">Interaction 1: Neuro Modelling, Cognitive Robotics and Agents
+                            </a>
+                            <br />
+                            <svg class="icon-course"><use xlink:href="#icon-course"></use></svg> 
+                            <a href="https://kurser.lth.se/kursplaner/20_21%20eng/MAMN15.html" target="_blank">Interaction 2: Virtuality and Cognitive Modelling
+                            </a>
+                        </h6>
+                        <p class="text-muted">
+                            The Rescue of Dataville is a learning game which I and my team have developed to improve knowledge about data literacy for children in ages ten to twelve. It was a collaboration between master engineer students and cognitive science master students. With the Swedish National Curriculum as a starting point, using theories in experience design, educational technology, and cognitive science, we created an educational game revolving around several mini-games, set in the fictional world of Dataville. I was the project leader and responsible for the development of the prototype and areas concerning interaction design. The project was performed during two courses: Interaction 1: Neuro Modelling, Cognitive Robotics and Agents and Interaction 2: Virtuality and Cognitive Modelling.
+                        </p>
+                    </div>
+                    <div class="col-md-5 how-img">
+                        <a href="img/data-literacy-2.png" target="_blank">
+                            <img src="img/data-literacy-2.png" style="width:100%"> </a>
+                    </div>
+                </div>
+
+                <iframe class="top-pic" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fq1pRhEjsUd7dAUhCyicDVS%2FInteraktion-1%3Fnode-id%3D124%253A0%26scaling%3Dscale-down" allowfullscreen></iframe>
+
+                <div class="row">
+                    <div class="col-md-7 how-img">
+                        <a href="img/rob.png" target="_blank">
+                            <img src="img/rob.png" style="width:100%"></a>
+                    </div>
+                    <div class="col-md-5 tech">
+                        <h4 style="color:#cca791">The Robot</h4>
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.lth.se/english/" target="_blank">LTH</a>
+                            <svg class="icon-course right-icon"><use xlink:href="#icon-course"></use></svg> 
+                            <a href="https://kurser.lth.se/kursplaner/20_21%20eng/TNSN01.html" target="_blank">Service Robotics
+                            </a>
+                        </h6>
+                        <p class="text-muted">
+                            In this project, the scope was to create a robot which were able to find wooden cylinders hidden in different places in a maze. It was a collaboration between Information and Communication Master Engineering students and Mechanical Master Engineering students.
+                        </p>
+                    </div> 
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4 style="color:#27adc7">Automatic Watering system </h4>
+
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            Home
+                        </h6>
+                        <p class="text-muted">
+                            Me and my partner’s interest in gardening resulted in an automatic watering system. By measuring the moisture level in the plant, we were able to know if the plant needed water or not. If the level was below the requested value a pump automaticity started to water the plant. We developed a web page to get statistical information about moisture and water levels.
+                    </div>
+                    <div class="col-md-7 how-img">
+                        <video width="600" height="400" controls autoplay muted loop >
+                            <source src="img/H20.mp4" type="video/mp4" style="width:10%">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div class=job>
+
+                <div class="row">
+                    <div class="aura">
+
+                        <h4 style="color:black;">Auranest</h4>
+                        <p class="text-muted">
+                            I work in parallel with my studies, at Auranest, where I have got the possibility to apply my theoretical knowledge in a commercial context. I have experience in prototyping, usability testing, idea generation, user-centered design and processes. My main assignment is to assist the product owner in product developing, by creating prototypes based on research and user behaviour. Below are some examples of what I have been working with.
+                        </p>
+                    </div>
+
+
+                    <div class="col-md-7 how-img">
+                        <video width="650" height="450" controls autoplay muted loop >
+                            <source src="img/aur-home.mp4" type="video/mp4" style="width:10%">
+                            Your browser does not support the video tag.
+                        </video>
+
+                    </div>
+                    <div class="col-md-5 tech">
+                        <h4 style="color:#6f57e7">Home page</h4>
+
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.auranest.com" target="_blank">Auranest</a>
+                        </h6>
+
+                        <p class="text-muted">
+                            To enable non-technical staff to update and add information to the homepage I developed a WordPress page. In this way, it is easy for almost anyone at the company to publish a blog update or publish a new feature on the page. My task was to create a foundation based on a theme and modify it according to my co-worker’s requirements. It was a collaboration between me, a graphical designer and a communicator.
+                        </p>
+
+                    </div> 
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4 style="color:#a5a6aa">Dashboard</h4>
+
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.auranest.com" target="_blank">Auranest</a>
+                        </h6>
+                        <p class="text-muted">
+                            One of Auranest’s products is the Digital Career Companion which have hundreds of job sites in one platform. It contains a dashboard view and to increase the usability of the page I re-designed it by modifying the content and layout. The goal was to make it easier for the user to understand the functions of the products. 
+                        </p>
+                    </div>
+                    <div class="col-md-6 how-img" style="text-align: right">
+                        <a href="img/aur-dashboard-1.png" target="_blank">
+                            <img src="img/aur-dashboard-1.png"> </a>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-5 how-img">
+                        <a href="img/cover-letter.png" target="_blank">
+                            <img src="img/cover-letter.png" style="width:100%"></a>
+                    </div>
+                    <div class="col-md-1 how-img"> </div>
+                    <div class="col-md-5 tech">
+                        <h4 style="color:#4C7BFA">Cover letter</h4>
+
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.auranest.com" target="_blank">Auranest</a>
+                        </h6>
+
+                        <p class="text-muted">
+                            Auranest’s Digital Career Companion includes a cover letter writing function. To help the user to write a well-written text with relevant information, I created a prototype to visualize my ideas and design.
+                        </p>
+                    </div> 
+                </div>
+
+
+                <div class="row box-frame">
+                    <div class="col-md-4 box-padd">
+                        <h4 style="color:#645E5D">Developing processes and usability tests</h4>
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.auranest.com" target="_blank">Auranest</a>
+                        </h6>
+
+                        <p class="text-muted">
+                            To improve the products to be more user-friendly I have developed a user-centered design process. It follows an iterative working approach and includes usability testing. I was also responsible for creating the usability testing plan. The goal was to improve the usability performance, by identifying positive and negative aspects of the product. The plan was based on my previous knowledge from the course Usability Evaluation.
+
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 box-padd">
+                        <h4 style="color:#645E5D">User research</h4>
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.auranest.com" target="_blank">Auranest</a>
+                        </h6>
+                        <div class="back-white">
+                            <p class="text-muted">
+                                I have analyzed user behaviour data from for example Google Analytics. The user research has later on been used as decision-making basis when developing products. I have conducted reports and held presentations to inform the team.
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 box-padd">
+                        <h4 style="color:#645E5D">Evolution of prototypes SRS</h4>
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.auranest.com" target="_blank">Auranest</a>
+                        </h6>
+                        <div class="back-white">
+                            <p class="text-muted">
+                                As a part of the product development process, I have in collaboration with the product owner evaluated ideas and prototypes. Based on my usability and user experience knowledge I have future developed prototypes and writing SRS for the development team.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4 style="color:#6a86ff">Admin page</h4>
+                        <h6 class="icon-section">
+                            <svg class="icon-course"><use xlink:href="#icon-map-marker"></use></svg>
+                            <a href="https://www.auranest.com" target="_blank">Auranest</a>
+                        </h6>
+                        <p class="text-muted">
+                            I have also worked on developing new products. One example is when I was responsible for developing an admin view for a product used by work coaches. It included both design and identifying requirements. The work was supposed to generate a basis for the development team.
+                        </p>
+                    </div>
+                    <div class="col-md-7 how-img">
+                        <a href="img/aur-admin.png" target="_blank">
+                            <img src="img/aur-admin.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+
+    <!-- Icons --> 
+    <script src="https://file.myfontastic.com/hECDU4PdKqjRReGFvztJ8j/icons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+
+    <!-- Changing view -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $(".show-job").click(function(){
+                $(".edu").hide();
+                $(".job").show();
+                $(".show-lth").css({'background-color': 'white'});
+                $(".show-lth").css({'color': 'black'});
+                $(".show-job").css({'background-color': 'black'});
+                $(".show-job").css({'color': 'white'});
+
+
+            });
+            $(".show-lth").click(function(){
+                $(".job").hide();
+                $(".edu").show();
+                $(".show-job").css({'background-color': 'white'});
+                $(".show-job").css({'color': 'black'});
+                $(".show-lth").css({'background-color': 'black'});
+                $(".show-lth").css({'color': 'white'});
+            });
+        });
+    </script>
 </html>

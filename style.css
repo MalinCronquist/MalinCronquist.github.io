@@ -1,0 +1,148 @@
+.section-around{
+    margin-top:-10%;
+    padding: 10%;
+}
+.section-around h4{
+    color: #019da2;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.section-around .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+    margin: auto;
+}
+.how-img img{
+    width: 90%;
+}
+.text-muted{
+    font-size: 16px;
+}
+
+.navbar{
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.top-pic{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.icon-course {
+    height: 15px;
+    width: 15px;
+    display: inline-block; 
+    fill: currentColor; 
+}
+.right-icon{
+    margin-left: 10px;
+}
+.icon-section{
+    color: #414444;
+}
+
+.container{
+    text-align: center;
+}
+
+.jumbotron{
+    background-color: white;
+}
+
+.box-frame{
+    box-shadow: 0px 0px 15px gainsboro;    
+}
+
+.box-padd{
+    margin: 20px;
+}
+
+
+/* nav buttons */
+.job{
+    display: none;
+}
+
+.show-job{
+    background-color: white;
+    color: black;
+    border: 5px solid black;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+
+    font-size: 16px;
+}
+
+.show-job:focus{
+    outline: 0;
+}
+
+.show-job:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+.show-lth{
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    margin-right: -10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    font-size: 16px;
+}
+
+.show-lth:focus{
+    outline: 0;
+}
+
+.show-lth:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+.nav-buttons{
+    text-align: center;
+    margin-bottom: -5%;
+}
+
+.contact-info{
+    padding: 40px;
+    text-align: center;
+    color: black;
+    text-align: center;
+    border: 5px solid black;
+}
+
+
+.contact-page{
+    padding: 100px;
+    background-color: white;
+}
+
+
+.aura{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
